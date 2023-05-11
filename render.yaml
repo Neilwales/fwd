@@ -1,0 +1,32 @@
+services:
+  # A Docker web service
+  - type: web
+    name: neil
+    env: docker
+    region: Singapore
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        # value: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        # value: API_ID
+        sync: false
+      - key: SUDO_USERS
+        # value: SUDO_USERS
+        sync: false
+      - key: FROM_CHATS
+        # value: FROM_CHATS
+        sync: false
+      - key: API_HASH
+        # value: API_HASH
+        sync: false
+      - key: TO_CHATS
+        # value: TO_CHATS
+        sync: false
+      - key: TELEGRAM_SESSION
+        # value: TELEGRAM_SESSION
+        sync: false
+      - key: ADVANCE_CONFIG
+        # value: ADVANCE_CONFIG
+        sync: false
